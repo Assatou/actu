@@ -1,0 +1,127 @@
+
+
+
+
+STUDENT 2
+
+MockUP From your mockup on part1 :
+
+make a new student registration mockup page where student can add picture,phone number and choose sex radio button.
+make a square menu buttons mockup with (Student signup button, student registration button, teacher dashboard)
+make a teacher dashboard page with students signing up table with logout button
+
+
+
+
+Dynamic web user interface from your work on part 1
+
+Add browse profile picture button to the students registration form the picture has to be save in a directory on the server and add a sex radio button
+Put a validation form which detect if user alreagy exist when the user put an email or a phone number
+Put a validation form for the password (confirmation, password lenght...)
+Make a warning page which will appear when a student try to sign twice a day
+Create an index page with icons menu from this page student can access the signing and the registration page. Teacher can access from this page the teacher dashboard page.
+Create a login teacher dashboard page
+Create a teacher dashboard page with a logout button and a table which will display (studentName- Signing date- signing hour)on that same page the teacher should be able to search for students according to the signup date
+
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+MockUP De votre maquette sur part1:
+
+créer une nouvelle page de maquette d'inscription des étudiants où l'élève peut ajouter une image, un numéro de téléphone et choisir le bouton radio sexe.
+créer une maquette de boutons de menu carré avec (bouton d'inscription de l'étudiant, bouton d'inscription de l'étudiant, tableau de bord de l'enseignant)
+créer une page de tableau de bord de l'enseignant avec le tableau d'inscription des élèves avec le bouton de déconnexion
+
+
+
+
+Interface utilisateur Web dynamique de votre travail sur la partie 1
+
+Ajouter le bouton Parcourir la photo de profil au formulaire d'inscription des étudiants, la photo doit être enregistrée dans un répertoire sur le serveur et ajouter un bouton radio sexe
+Mettre un formulaire de validation qui détecte si l'utilisateur existe déjà lorsque l'utilisateur met un email ou un numéro de téléphone
+Mettre un formulaire de validation du mot de passe (confirmation, longueur du mot de passe ...)
+Créez une page d'avertissement qui apparaîtra lorsqu'un élève essaiera de signer deux fois par jour
+Créez une page d'index avec un menu d'icônes à partir de cette page. L'élève peut accéder à la page de signature et d'inscription. L'enseignant peut accéder à partir de cette page à la page du tableau de bord de l'enseignant.
+Créer une page de tableau de bord pour les enseignants de connexion
+Créez une page de tableau de bord de l'enseignant avec un bouton de déconnexion et un tableau qui affichera (nom de l'étudiant - date de signature - heure de signature) sur cette même page, l'enseignant devrait être en mesure de rechercher des étudiants en fonction de la date d'inscription
+
+
+
+
+
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Student 3
+
+part 1
+
+L'étudiant peut se connecter à un tableau de bord où il peut modifier ses informations personnelles
+Utilisez la validation JavaScript pour qu'un étudiant ne télécharge pas une photo d'une taille supérieure à 500KB
+Dans le menu, créez un bouton de tableau de bord pour l'élève.
+Page du tableau de bord de connexion pour l'étudiant
+Page du tableau de bord de l'élève où l'élève peut voir, sur un tableau et sur un graphique, les informations relatives à ses présences en classe
+L'étudiant peut modifier les informations de son profil à partir de son tableau de bord
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
+
+......................
+
+
+Part 2
+
+L'enseignant peut se connecter à un tableau de bord où il peut modifier le mot de passe
+L'enseignant peut voir l'assiduité de tous les élèves de la classe sur un tableau et un graphique
+L'enseignant peut ajouter des informations sur l'assiduité des élèves
+
+
+
+
+
+
+
+<div id="container">
+		
+<div class="row">
+
+			 <div id="profilPicture" class="col-md-2">
+			 <a style="text-decoration:none; color:white"; href="student_dashboard.php">About Me</a>
+			 </div>
+
+			 <div id="profil" class="col-md-2">
+			 	<a style="text-decoration:none; color:white"; href="graphic.php">Graphic</a>
+			 </div>
+
+			 <div id="profil" class="col-md-2">
+			 	<a style="text-decoration:none; color:white"; href="edit_student_profil.php">Edit my profil</a>
+			 </div>
+
+			 <div id="deconnexion" class="col-md-2">
+			 <a style="text-decoration:none; color:white"; href="edit_student_password.php">Edit my password</a>
+			 </div>
+
+</div>
+</div>
+
+
+
+
+<?php 
+include("bd.php");
+$sql="SELECT iduser FROM etudiant";
+
+$query=$conn->query($sql);  
+    $result=$query->fetchAll();
+ foreach ($result as $row){
+  $solut= $row['iduser'];
+ 
+  $conn->query("INSERT INTO absence SET iduser = $solut, date_absence = NOW()");
+ }
+
+ ?>

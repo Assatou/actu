@@ -1,0 +1,144 @@
+
+/*Index.php*/
+
+.box{
+	cursor: pointer;
+	margin-right: 30px;
+	margin-top: 15px;
+	padding: 15px;
+}
+
+
+
+	a {
+	  text-decoration: none;
+	}
+
+
+.dark-row{
+    background:#AEC5E8;
+    
+}
+.light-row{
+    
+    background:#F1F3F0;
+}
+
+.movie-table-head{
+    
+    background: ;
+}
+
+.box:hover
+{
+	background-color: #ccc;
+}
+
+/*Dashboard de l'etudiant (student_dashbord.php) */
+
+#container
+{
+   position: relative;
+   width: 1000px;
+   height: 100px;
+   left:50%;
+   margin-left: -500px;
+   background-color: #ccc;
+   border-radius: 20px;
+   padding-top:10px;
+   padding-bottom: 10px;
+   text-align: center;
+
+}
+
+#profilPicture
+{	
+	margin: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+	background-color: blue;
+	margin-left: 50px;
+	width: 250px;
+
+}
+
+
+#profil
+{	
+	margin: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+  background-color: blue;
+  margin-left: 50px;
+	width: 250px;
+}
+
+
+#deconnexion
+{	
+	margin: 15px;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+  background-color: blue;
+	margin-left: 50px;
+	width: 250px;
+}
+
+.form
+{
+  position: right;
+}
+
+/*--------- Dashbord du teacher (dashbord.php) ---------*/
+
+
+
+.wrapper
+{
+	
+	position: relative;
+	margin-top: 0px;
+
+}
+
+.wrapper .sidebar
+{
+	position: fixed;
+	width: 180px;
+	background-color: green;
+	padding: 50px 0;
+}
+
+.wrapper .sidebar ul li
+{
+	padding-left: 0px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	border-bottom: 1px solid rgba(0,0,0;0.05);
+	border-top: 1px solid rgba(225,225,225;0.05);
+	list-style: none;
+}
+
+.wrapper .sidebar ul li a
+{
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+.wrapper .sidebar ul li a .fas
+{
+ width: 25px;
+
+}
+
+.wrapper .sidebar ul li:hover
+{
+
+	background-color: #02300c;
+}
+

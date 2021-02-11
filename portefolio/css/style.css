@@ -1,0 +1,35 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+}
+
+nav #logo{
+    width: 50%;
+}
+
+nav #liens{
+    width: 50%;
+}
+#liens li{
+     display: inline;
+ }
+
+ #logo img,h3{
+    display: inline; 
+ }
+
+ #liens ul{
+     float: right;
+     margin-right: 50px;
+
+ }
+
+ #logo h3{
+     
+ }

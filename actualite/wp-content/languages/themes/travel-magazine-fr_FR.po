@@ -1,0 +1,150 @@
+# Translation of Themes - Travel Magazine in French (France)
+# This file is distributed under the same license as the Themes - Travel Magazine package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-13 14:59:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Travel Magazine\n"
+
+#. Theme Name of the theme
+msgid "Travel Magazine"
+msgstr "Travel Magazine"
+
+#: functions.php:649
+msgid "Travel Magazine | Developed By"
+msgstr "Travel Magazine | Développé par"
+
+#: functions.php:85
+msgid "Theme Documentation"
+msgstr "Documentation du thème"
+
+#: functions.php:175
+msgid "Slider Category"
+msgstr "Catégorie du diaporama"
+
+#: functions.php:124
+msgid "Misc Settings"
+msgstr "Réglages divers"
+
+#: functions.php:116
+msgid "Header Settings"
+msgstr "Réglages d'en-tête"
+
+#: functions.php:88
+msgid "Support Ticket"
+msgstr "Ticket de support"
+
+#: functions.php:85 functions.php:86 functions.php:87 functions.php:88
+#: functions.php:89
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: functions.php:87
+msgid "Theme info"
+msgstr "Theme info"
+
+#: functions.php:651
+msgid "https://wordpress.org/"
+msgstr "https://fr.wordpress.org/"
+
+#: functions.php:651
+msgid "Powered by %s"
+msgstr "Propulsé par %s"
+
+#: functions.php:644
+msgid "Y"
+msgstr "Y"
+
+#: functions.php:644
+msgid "&copy; Copyright "
+msgstr "&copy; Copyright "
+
+#: functions.php:619
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: functions.php:619
+msgid "1 Comment"
+msgstr "Un commentaire"
+
+#: functions.php:619
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: functions.php:283
+msgid "Choose Category"
+msgstr "Choisissez une catégorie"
+
+#: functions.php:237 functions.php:395
+msgid "Latest News"
+msgstr "Dernières nouvelles"
+
+#: functions.php:350
+msgid "Top News"
+msgstr "Top nouvelles"
+
+#: functions.php:265
+msgid "Middle Section Category"
+msgstr "Catégorie de section du mileu"
+
+#: functions.php:245
+msgid "Middle Section Label"
+msgstr "Libellé de section du milieu"
+
+#: functions.php:227
+msgid "Enable Middle Section"
+msgstr "Activer la section du milieu"
+
+#: functions.php:209
+msgid "Middle Section"
+msgstr "Section du milieu"
+
+#: functions.php:196
+msgid "Choose the layout for top section."
+msgstr "Choisissez la mise en page pour la section du haut."
+
+#: functions.php:195
+msgid "Top Section Layout"
+msgstr "Mise en page de la section du haut"
+
+#: functions.php:154
+msgid "Enable header slider in homepage"
+msgstr "Activer le diaporama d’en-tête dans la page d’accueil"
+
+#: functions.php:136
+msgid "Header Slider Settings"
+msgstr "Réglages de diaporama d’en-tête"
+
+#: functions.php:92
+msgid "About Travel Magazine"
+msgstr "À propos de Travel Magazine"
+
+#: functions.php:89
+msgid "More WordPress Themes"
+msgstr "Plus de thèmes WordPress"
+
+#: functions.php:86
+msgid "Theme Demo"
+msgstr "Démo du thème"
+
+#: functions.php:57
+msgid "Demo and Documentation"
+msgstr "Démo et documentation"
+
+#. Author URI of the theme
+msgid "https://rarathemes.com/"
+msgstr "https://rarathemes.com/"
+
+#. Author of the theme
+#: functions.php:650
+msgid "Rara Theme"
+msgstr "Rara Theme"
+
+#. Theme URI of the theme
+msgid "https://rarathemes.com/wordpress-themes/travel-magazine/"
+msgstr "https://rarathemes.com/wordpress-themes/travel-magazine/"

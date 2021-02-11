@@ -1,0 +1,205 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header{
+height: auto;
+width: 100%;
+background-color: white;
+margin: 0 !important;
+padding: 0 !important;
+}
+/* rgb(230, 231, 227) */
+
+.navbar-nav{
+color: white;
+}
+.orange{
+
+width: auto;
+background-color: #ff914d;
+
+}
+.navbar-collapse{
+color: white;
+}
+.nav-item:hover{
+text-decoration:underline;
+}
+.boutton:hover{
+text-decoration:underline;
+}
+
+h1{
+margin: 10px;
+padding: 85px;
+}
+.marge{
+margin-top: 80px;
+}
+
+.espace{
+letter-spacing: 3px;
+}
+.espace1{
+letter-spacing: 2.5px;
+}
+
+.traduction{
+height: 500px;
+width: 100%;
+background-color: #ffffff;
+}
+
+
+
+
+
+
+ /* commentaire.php */
+   /* generale */
+body{
+background-color: rgb(86, 162, 54);
+height: 100%;
+    width: 100vw;
+}/**/
+
+  /* conteneur */
+.container-fluid{
+display: flex;
+justify-content: center;
+box-sizing: border-box;
+}
+.conteneur1{
+height: auto;
+width: 480px;
+background-color: #ffffff;
+margin: 20px;
+padding: auto;
+  border-color: #996262;
+  border-radius: 30px;
+  padding: 20px;
+} /**/
+
+
+  /* logo ITL */
+.itllogo{
+display: flex;
+justify-content: center;
+}
+.titre{
+display: flex;
+justify-content: center;
+margin-bottom: 400px;
+} 
+
+.texteITL{
+display: flex;
+justify-content: center;
+margin-bottom: auto;
+
+}/**/
+
+/* texte inscription */
+.inscription{
+display: flex;
+justify-content: center;
+float: none;
+}
+
+
+
+  /* texte connexion */
+.connexiontexte{
+margin-top: 30px;
+display: flex;
+justify-content: center;
+} /**/
+
+  /* centrer les labels et les boutons */
+.centrer1{
+margin-left: 25px;
+}
+
+
+.postion1{
+display: flex;
+justify-content: initial;
+margin-right:100px;
+width: 440px;
+} /**/
+
+  /* boutton */
+.btn{
+background-color: #ff914d;
+border-radius: 60 px;
+float: right;
+margin-right: 35px ;
+margin-top: 20px;
+padding: 6px;
+} /**/
+
+
+
+  /* style bloc vert  */
+
+        .blocvert {
+            background-color: #3e844a;
+            margin-top: 30px;
+            text-align: center;
+            height: auto;
+            width: auto;
+            margin: 0px;
+            padding: 40px;
+
+        }
+
+        .dot {
+
+            height: 150px;
+            width: 150px;
+            background-color: #3e844a;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: auto;
+            border-style: solid;
+            border-width: 5px;
+            border-color: #EC904A;
+
+        }
+
+        .stars {
+            margin-left: auto;
+            margin-top: 40px;
+        }
+
+       .textblocvert {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #e7f2ec;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        .textblocvert2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: #fdecec;
+            font-size: 25px;
+            letter-spacing: 1px;
+        }
+
+       .bouttonBlocVert{
+            border-style: solid 1px;
+            border-color: white;
+            background-color: #ff914d;
+            height: 50px;
+            width: 350px;
+            border-radius: 7px;
+            color: white;
+            font-size: 25px;
+            margin-top: 50px;
+        }
+
